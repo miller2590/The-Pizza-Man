@@ -6,6 +6,8 @@
 
 body {
     background-color: #F2F2F2;
+    /* overflow: hidden; */
+    font-family: 'Red Hat Text', sans-serif;
 }
 
 /* Nav */
@@ -19,7 +21,7 @@ body {
     width: 100%;
     background: #DED4C7CC;
     opacity: 80%;
-    position: absolute;
+    position: fixed;
 }
 
 .links {
@@ -31,8 +33,7 @@ body {
 }
 
 .link-btn a {
-    flex-shrink: 1;
-    padding-right: 8rem;
+    padding-right: 6rem;
     color: black;
     text-decoration: none;
 }
@@ -73,4 +74,71 @@ body {
 .main-logo {
     width: 36.188rem;
     height: 21.688rem;
+    padding-right: 6rem;
+}
+
+
+/* content section */
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    max-height: 27.688rem;
+    padding-top: 4.063rem;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    max-width: 38.063rem;
+
+}
+
+.text-container p {
+    text-align: center;
+    letter-spacing: .07rem;
+    line-height: 1.875rem;
+    font-style: normal;
+    /* or 125% */
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.title-split {
+    margin: 0 4rem;
+}
+
+.body {
+    font-weight: 500;
+    font-size: 1.125rem;
+    color: #C44E39;
+}
+
+.location {
+    background-color: #ECEBE7;
+    border-radius: 0.625rem;
+    padding: 0.938rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Image container */
+
+.image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 32.5rem;
+}
+
+.pizza {
+    border-radius: 0.625rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
