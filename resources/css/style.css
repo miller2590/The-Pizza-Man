@@ -83,7 +83,7 @@ body {
 .content-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-content: center;
     max-height: 27.688rem;
     padding-top: 4.063rem;
@@ -138,7 +138,18 @@ body {
     width: 32.5rem;
 }
 
-.pizza {
+.gallery-pic {
     border-radius: 0.625rem;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.man-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pizza-man {
+    max-height: 5rem;
 }
