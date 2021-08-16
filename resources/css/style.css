@@ -5,7 +5,7 @@
 }
 
 body {
-  overflow:visible;
+  overflow: visible;
   background-color: #f2f2f2;
   font-family: "Red Hat Text", sans-serif;
 }
@@ -32,15 +32,17 @@ body {
   list-style: none;
 }
 
+.link-btn a:hover {
+  color: #c44e39;
+}
+
 .link-btn a {
-  padding-right: 6rem;
+  margin-right: 6rem;
   color: black;
   text-decoration: none;
-  
 }
 
 .links li:nth-child(4) > a {
-  
   padding: 0.625rem;
   margin-right: 8rem;
   border: 1px solid #c44e39;
@@ -170,16 +172,14 @@ body {
 /* Nav hamburger menu global settings */
 
 @media screen and (max-width: 1200px) {
-
-
   /* Nav Bar */
 
   .nav-bar {
     opacity: 95%;
   }
-  
+
   /* Nav links */
-  
+
   .links {
     background-color: #ffffff;
     position: fixed;
@@ -189,8 +189,7 @@ body {
     transition: 0.3s;
     left: -115%;
     top: 6.25rem;
-    box-shadow:
-            0 10px 27px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
   }
 
   .link-btn {
@@ -198,7 +197,6 @@ body {
   }
 
   .links li:nth-child(4) > a {
-    color: #c44e39;
     margin-right: 6.25rem;
     align-items: center;
   }
@@ -231,7 +229,6 @@ body {
 /* Media Query Large */
 
 @media screen and (max-width: 1200px) and (min-width: 992px) {
-
   /* Banner */
 
   .main-logo {
@@ -240,7 +237,7 @@ body {
     padding-right: 3rem;
     padding-bottom: 3rem;
   }
-  
+
   /* Content */
 
   .content-container {
@@ -272,13 +269,11 @@ body {
   .pizza-man {
     display: none;
   }
-  
 }
 
 /* Media Query Medium */
 
 @media screen and (max-width: 991px) and (min-width: 768px) {
-
   /* Banner */
 
   .banner {
@@ -286,14 +281,14 @@ body {
     justify-content: flex-end;
     align-items: flex-end;
   }
-  
+
   .main-logo {
     width: 25.188rem;
     height: 15.688rem;
     padding-right: 1rem;
     padding-bottom: 3rem;
   }
-  
+
   /* Content */
 
   .content-container {
@@ -330,20 +325,19 @@ body {
 /* Media Query Small */
 
 @media screen and (max-width: 767px) {
-
   /* Hamburger menu */
 
   .hamburger {
     padding-right: 1rem;
   }
-  
+
   /* Nav */
   .nav-bar {
     justify-content: flex-end;
     height: 3rem;
   }
 
-  .nav-logo{
+  .nav-logo {
     display: none;
   }
 
@@ -358,21 +352,20 @@ body {
     justify-content: flex-end;
     align-items: flex-end;
   }
-  
+
   .main-logo {
     max-width: 16.188rem;
     max-height: 10.688rem;
-    padding-right: .5rem;
+    padding-right: 0.5rem;
     padding-bottom: 1rem;
   }
-  
+
   /* Content */
 
   .content-container {
     display: block;
     padding: 0;
     margin: 2rem;
-    
   }
 
   .text-container {
