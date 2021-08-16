@@ -282,14 +282,16 @@ body {
   /* Banner */
 
   .banner {
-    background-image: linear-gradient(180deg, #ec6f66, #f3a183, #f2f2f2) ;
-    justify-content: center;
+    background-image: url(/resources/images/phone-bg-sm.jpg);
+    justify-content: flex-end;
     align-items: flex-end;
   }
   
   .main-logo {
-    border-radius: .625rem;
-    padding: 0;
+    width: 25.188rem;
+    height: 15.688rem;
+    padding-right: 1rem;
+    padding-bottom: 3rem;
   }
   
   /* Content */
@@ -352,16 +354,16 @@ body {
   /* Banner */
 
   .banner {
-    background-image: linear-gradient(180deg, #ec6f66, #f3a183, #f2f2f2);
-    justify-content: center;
-    align-items: center;
+    background-image: url(/resources/images/phone-bg-sm.jpg);
+    justify-content: flex-end;
+    align-items: flex-end;
   }
   
   .main-logo {
-    border-radius: .625rem;
-    padding: 0;
-    height: 18rem;
-    width: 23rem;
+    max-width: 16.188rem;
+    max-height: 10.688rem;
+    padding-right: .5rem;
+    padding-bottom: 1rem;
   }
   
   /* Content */
