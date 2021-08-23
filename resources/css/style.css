@@ -404,3 +404,22 @@ body {
     display: none;
   }
 }
+
+/* 
+_______________________________________
+
+CONTACT.HTML
+
+_______________________________________
+ */
+
+.contact-body {
+  background-image: url(/resources/images/engin-akyurt-QI32uJ52aOo-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.head--container {
+  display: block;
+}
+  
