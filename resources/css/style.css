@@ -496,6 +496,15 @@ _______________________________________
   border-radius: 10px;
 }
 
+.contact-card a {
+  text-decoration: none;
+  color: #c44e39;
+}
+
+.contact-card a:hover {
+  color: blanchedalmond;
+}
+
 /* Contact footer */
 
 .contact-footer {
